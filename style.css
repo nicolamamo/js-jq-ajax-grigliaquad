@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 50px;
+}
+
+.quadrato{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
